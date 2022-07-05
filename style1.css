@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #f0cfb7;
+}
+
+a{
+    text-decoration: none;
+ }
+
+.conteiner{
+    width: 800px;
+    height: 600px;
+    margin: 60px auto;
+}
+
+.geral{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
+    min-width:400px;
+}
+
+.perfum{
+    width: 600px;
+    height: 500px;
+    
+  
+}
+
+.normal{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+}
+
+.mobile{
+    display: none;
+}
+.cards{
+    background-color: rgb(255, 255, 255);
+    width: 600PX;
+    height: 500px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    
+}
+
+.card{
+    margin: 10px;
+    background-color: rgb(251, 251, 251);
+    padding:0px 50px;
+}
+    
+.card-perfume{
+    display:block;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing:10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 50px;
+    color: #6c7289;
+}
+    
+.card-title{
+    display:block;
+    font-family: 'Fraunces', serif;
+    padding-top: 25px;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+    
+
+.card-p{
+display:block;
+font-family: 'Montserrat', sans-serif;
+padding-top: 20px;
+color:#6C7289;
+font-weight:bold;
+font-size: 15px;
+letter-spacing:5px;
+}
+
+.prec{
+    display:block;
+    display:flex;
+}
+
+.card-price{
+    display:block;
+    font-family: 'Fraunces', serif;
+    padding-top: 20px;
+    color: #3C8067;
+    font-size: 30px;
+   
+}
+
+.card-cut{
+    display:block;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6c7289;
+    text-decoration-line:line-through;
+    text-decoration-color: #6C7289;
+}
+
+.buttom{
+ display:block;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+ font-size: 15px;
+ letter-spacing: 1px;
+ color: rgb(255, 255, 255);
+ background: #3C8067;
+ padding: 20px;
+ border-radius: 12px;
+ width:20em;
+ margin-top:30px;
+ text-align: center;
+ transition: letter-spacing .5s ease;
+ 
+}
+
+.buttom:hover{
+    letter-spacing: 4px;
+}
+
+
+
+
+
+
+
+
+/* Media Celular */
+
+
+@media (max-width:480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+   
+    body{
+        background: #a8cbde;
+        
+    }
+    
+    a{
+       text-decoration: none;
+    }
+    
+    .conteiner{
+        width: 550px;
+        height: 200px;
+       
+    }
+
+    .geral{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+      
+       
+
+    .perfum{
+        width: 500px; 
+        height: 350px;
+    }
+        
+        
+
+    .mobile{
+        display:block;
+        max-width: 100%;
+        max-height: 100%;
+        border-top-left-radius:20px;
+        border-top-right-radius: 20px;
+        
+    }
+        
+
+
+    .normal{
+        display: none;
+        width: 100%;
+        height:100%;
+        border-top-left-radius:15px;
+        border-bottom-left-radius: 15px;
+    }
+       
+
+    .cards{
+        display: block;
+        background: rgb(255, 255, 255);
+        width: 500px;
+        height: 460px;
+        border-bottom-left-radius: 20px;
+      
+    }
+        
+        
+    .card{
+        display:block;
+        background-color: rgb(255, 255, 255);
+        padding:0px 50px;
+        font-size: 20px;
+        letter-spacing: 5px;
+        margin: 0px;
+    }
+    
+    .card-perfume{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing:10px;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 50px;
+        color: #6c7289;
+    }
+    
+    .card-title{
+        display:block;
+        font-family: 'Fraunces', serif;
+        padding-top: 25px;
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+    
+    .card-p{
+        display:block;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 20px;
+        color:#6C7289;
+        font-weight:bold;
+        font-size: 15px;
+        letter-spacing:5px;
+    }
+    
+    .prec{
+        display:block;
+        display:flex;
+    }
+    
+    .card-price{
+        display:block;
+        font-family: 'Fraunces', serif;
+        padding-top: 20px;
+        color: #3C8067;
+        font-size: 30px;
+       
+    }
+    
+    .card-cut{
+        display:block;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 30px;
+        padding-left: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #6c7289;
+        text-decoration-line:line-through;
+        text-decoration-color: #6C7289;
+    }
+       
+    
+    .buttom{
+        display:block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: rgb(255, 255, 255);
+        background: #3C8067;
+        padding: 20px;
+        border-radius: 12px;
+        width:20em;
+        margin-top:30px;
+        margin-left: 50px;
+        text-align: center;
+        
+    }
+    
+      
+      
+
+
+    
+    
+
+    
+}
