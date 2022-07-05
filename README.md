@@ -1,2 +1,2 @@
 # project-perfume
-Botando em pratica o estudos de HTML E CSS
+Botando em pratica os estudos de HTML E CSS
